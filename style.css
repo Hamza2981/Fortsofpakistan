@@ -1,0 +1,75 @@
+.bgimg{
+    background-image: url("Lahore-fort1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+.headerset h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: roboto;
+    transition: 0.5s ease;
+}
+.headerset h6{
+    font size:24px;
+    padding:10px;
+    transition: 0.5s ease;
+}
+.headerset h1:hover{
+color: darkgray;
+font-size: 74px;
+}
+.headerset h6:hover{
+    color: darkgray;
+    font-size: 26px;
+}
+@media only screen and(max-width:800px){
+.headerset h1{    font-size: 70px;
+    font-weight: bolder;
+    font-family: Roboto;
+    transition: 0.5s ease;}
+    
+    .headerset{
+        padding: 300px;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+}
+.posts{
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.navbar-nav li a{
+    transition: 0.5s ease;
+    margin: 18px;
+}
+.navbar-nav li a:hover{
+    background-color: black;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+}
+.card-group{
+    margin: 10px;
+    transition: 0.5s ease;
+}
+.card{
+    margin: 10px;
+}
+.card:hover{
+    opacity: 0.3;
+
+}
+.page-footer font-small blue pt-4
+{
+    background-color: blue;
+    color:aliceblue;
+}
